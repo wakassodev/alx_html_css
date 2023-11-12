@@ -14,7 +14,6 @@ Welcome to the ALX Intro to Software Engineering Advanced HTML Project! This pro
   - [3. Forms and Input Elements](#3-forms-and-input-elements)
   - [4. Embedded Content](#4-embedded-content)
 - [How to Use](#how-to-use)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Prerequisites
@@ -44,7 +43,7 @@ Embedded content, such as images and videos, is effectively utilized. The `image
 
 ## How to Use
 
-1. Clone the repository: `git clone https://github.com/your-username/alx-se-advanced-html.git`
+1. Clone the repository: `git clone https://github.com/wakassodev/alx_html_css.git`
 2. Open `index.html` in your preferred web browser or deploy the project on a web server for testing.
 3. Explore the document structure, responsiveness, and various HTML elements used.
 
