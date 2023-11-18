@@ -17,6 +17,7 @@ main {
     display: flex;
     flex-direction: row;
     flex: auto;
+    background-color: aqua;
 }
 
 article {
