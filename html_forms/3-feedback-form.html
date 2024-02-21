@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form with Checkboxes and File Upload</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input {
+            display: block;
+            margin-bottom: 15px;
+            padding: 5px;
+            width: 300px;
+        }
+        input[type="submit"] {
+            background-color: rgb(248, 112, 22);
+            color: rgb(255, 255, 255);
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: rgba(255, 78, 47, 0.986);
+        }
+        .feedback {
+            display: flex;
+            flex-direction: column;
+        }
+        .checkbox {
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            width: 300px;
+            margin: 0;
+        }
+        .file {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <div class="feedback">
+            <label>Feedback:</label>
+            <div class="check">
+                <div class="checkbox">
+                    <label for="excellent">Excellent:</label>
+                    <input type="checkbox" id="excellent" value="excellent" name="excellent" required>
+                </div>
+                <div class="checkbox">
+                    <label for="good">Good:</label>
+                    <input type="checkbox" id="good" value="good" name="good" required>
+                </div>
+                <div class="checkbox">
+                    <label for="average">Average:</label>
+                    <input type="checkbox" id="average" value="average" name="average" required>
+                </div>
+                <div class="checkbox">
+                    <label for="poor">Poor:</label>
+                    <input type="checkbox" id="poor" value="poor" name="poor" required>
+                </div>
+            </div>
+    
+        </div>
+
+        <div class="file">
+            <label for="file">Upload a file:</label>
+            <input type="file" id="file" value="file" name="file" required>
+        </div>
+        
+        <input type="submit">
+    </form>
+</body>
+</html>
